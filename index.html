@@ -1,457 +1,422 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-<meta charset="UTF-8" />
-<meta name="viewport" content="width=device-width, initial-scale=1.0"/>
-
-<title>TEAM CAF_CX</title>
-
-<style>
-
-*{
-    margin:0;
-    padding:0;
-    box-sizing:border-box;
-}
-
-body{
-    font-family: Arial, sans-serif;
-    background:#f5f7fb;
-    color:#222;
-}
-
-/* HEADER */
-
-header{
-    background:#111827;
-    color:white;
-    padding:30px;
-    text-align:center;
-}
-
-header h1{
-    font-size:42px;
-    margin-bottom:10px;
-}
-
-header p{
-    color:#d1d5db;
-}
-
-/* NAVIGATION */
-
-nav{
-    background:white;
-    padding:15px;
-    position:sticky;
-    top:0;
-    z-index:1000;
-    box-shadow:0 2px 8px rgba(0,0,0,0.08);
-}
-
-nav ul{
-    display:flex;
-    justify-content:center;
-    gap:30px;
-    list-style:none;
-}
-
-nav a{
-    text-decoration:none;
-    color:#111827;
-    font-weight:bold;
-    transition:0.3s;
-}
-
-nav a:hover{
-    color:#2563eb;
-}
-
-/* SECTION */
-
-section{
-    padding:60px 8%;
-}
-
-.section-title{
-    font-size:34px;
-    margin-bottom:40px;
-    color:#111827;
-}
-
-/* TEAM MEMBERS */
-
-.team-grid{
-    display:grid;
-    grid-template-columns:repeat(auto-fit, minmax(280px,1fr));
-    gap:30px;
-}
-
-.member-card{
-    background:white;
-    border-radius:20px;
-    padding:30px;
-    text-align:center;
-    box-shadow:0 5px 15px rgba(0,0,0,0.08);
-    transition:0.3s;
-}
-
-.member-card:hover{
-    transform:translateY(-5px);
-}
-
-.member-card img{
-    width:120px;
-    height:120px;
-    border-radius:50%;
-    object-fit:cover;
-    margin-bottom:20px;
-}
-
-.member-card h3{
-    margin-bottom:10px;
-    font-size:24px;
-}
-
-.member-role{
-    color:#2563eb;
-    font-weight:bold;
-    margin-bottom:15px;
-}
-
-.contact-info{
-    color:#555;
-    line-height:1.8;
-}
-
-/* REPORTS */
-
-.report-card{
-    background:white;
-    padding:25px;
-    border-radius:20px;
-    margin-bottom:40px;
-    box-shadow:0 5px 15px rgba(0,0,0,0.08);
-}
-
-.report-card h3{
-    margin-bottom:20px;
-}
-
-iframe{
-    width:100%;
-    height:700px;
-    border:none;
-    border-radius:15px;
-}
-
-/* PLANS */
-
-.plan-grid{
-    display:grid;
-    grid-template-columns:repeat(auto-fit,minmax(320px,1fr));
-    gap:30px;
-}
-
-.plan-card{
-    background:white;
-    border-radius:20px;
-    overflow:hidden;
-    box-shadow:0 5px 15px rgba(0,0,0,0.08);
-}
-
-.plan-card img{
-    width:100%;
-    height:220px;
-    object-fit:cover;
-}
-
-.plan-content{
-    padding:25px;
-}
-
-.plan-content h3{
-    margin-bottom:15px;
-}
-
-.plan-content p{
-    color:#555;
-    line-height:1.8;
-}
-
-/* PROGRAMS */
-
-.program-card{
-    background:white;
-    border-radius:20px;
-    overflow:hidden;
-    margin-bottom:40px;
-    box-shadow:0 5px 15px rgba(0,0,0,0.08);
-}
-
-.program-card img{
-    width:100%;
-    height:350px;
-    object-fit:cover;
-}
-
-.program-content{
-    padding:30px;
-}
-
-.program-content h3{
-    margin-bottom:20px;
-    font-size:28px;
-}
-
-.program-content p{
-    color:#555;
-    line-height:1.8;
-}
-
-/* FOOTER */
-
-footer{
-    background:#111827;
-    color:white;
-    text-align:center;
-    padding:30px;
-    margin-top:60px;
-}
-
-</style>
-</head>
-
-<body>
-
-<!-- HEADER -->
-
-<header>
-    <h1>TEAM CAF_CX</h1>
-    <p>Customer Experience Team</p>
-</header>
-
-<!-- NAVIGATION -->
-
-<nav>
-    <ul>
-        <li><a href="#team">Team Members</a></li>
-        <li><a href="#reports">Reports</a></li>
-        <li><a href="#plans">Plans & Strategy</a></li>
-        <li><a href="#programs">Key Programs</a></li>
-    </ul>
-</nav>
-
-<!-- TEAM MEMBERS -->
-
-<section id="team">
-
-    <h2 class="section-title">Team Members</h2>
-
-    <div class="team-grid">
-
-        <!-- MEMBER 1 -->
-
-        <div class="member-card">
-            <img src="370874-200.png" alt="Member 1">
-
-            <h3>Aspa Le Thi Mercedes</h3>
-
-            <div class="member-role">
-                CX Manager
-            </div>
-
-            <div class="contact-info">
-                Email: mercedes.alt@pnj.com.vn<br>
-                Phone: <br>
-                Location: Ho Chi Minh, Vietnam
-            </div>
-        </div>
-
-        <!-- MEMBER 2 -->
-
-        <div class="member-card">
-            <img src="abcs.png" alt="Member 2">
-
-            <h3>Huu Thang Tran</h3>
-
-            <div class="member-role">
-                Data Analyst
-            </div>
-
-            <div class="contact-info">
-                Email: thang.th@pnj.com.vn<br>
-                Phone: <br>
-                Location: Ho Chi Minh, Viet Nam
-            </div>
-        </div>
-
-        <!-- MEMBER 3 -->
-
-        <div class="member-card">
-            <img src="370874-200.png" alt="Member 3">
-
-            <h3>Thao Trang Nguyen</h3>
-
-            <div class="member-role">
-                Customer Experience Specialist
-            </div>
-
-            <div class="contact-info">
-                Email: trang.nt55@pnj.com.vn<br>
-                Phone: <br>
-                Location: Ho Chi Minh, Vietnam
-            </div>
-        </div>
-
-    </div>
-
-</section>
-
-<!-- REPORTS -->
-
-<section id="reports">
-
-    <h2 class="section-title">Business Reports</h2>
-
-    <!-- REPORT 1 -->
-
-    <div class="report-card">
-
-        <h3>Focus Customer Report</h3>
-
-        <iframe
-        src="https://app.powerbi.com/reportEmbed?reportId=f5aa85a0-4943-4a97-8088-764fc1dd5fde&autoAuth=true&ctid=6ea838f0-f529-455e-9738-147060990b55"
-        allowFullScreen="true">
-        </iframe>
-
-    </div>
-
-    <!-- REPORT 2 -->
-
-    <div class="report-card">
-
-        <h3>Birthday Campaign Report</h3>
-
-        <iframe
-        src="https://app.powerbi.com/reportEmbed?reportId=99dead1e-9cd0-4f57-89c1-ee7ff73590bc&autoAuth=true&ctid=6ea838f0-f529-455e-9738-147060990b55"
-        allowFullScreen="true">
-        </iframe>
-
-    </div>
-
-</section>
-
-<!-- PLANS & STRATEGY -->
-
-<section id="plans">
-
-    <h2 class="section-title">Plans & Strategy</h2>
-
-    <div class="plan-grid">
-
-        <!-- PLAN 1 -->
-
-        <div class="plan-card">
-
-            <img src="https://images.unsplash.com/photo-1522202176988-66273c2fd55f?q=80&w=1200&auto=format&fit=crop" alt="Strategy">
-
-            <div class="plan-content">
-
-                <h3>Customer Journey</h3>
-
-                <p>
-                    Develop personalized customer journeys and loyalty initiatives
-                   
-                </p>
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+
+        <title>TEAM CAF_CX</title>
+
+        <style>
+            /* RESET */
+            * {
+                margin: 0;
+                padding: 0;
+                box-sizing: border-box;
+            }
+
+            body {
+                font-family:  Arial, sans-serif;
+                background: #f5f7fb;
+                color: #222;
+            }
+
+            /* HEADER */
+            header {
+                background: #111827;
+                color: white;
+                padding: 30px;
+                text-align: center;
+            }
+
+            header h1 {
+                font-size: 42px;
+                margin-bottom: 10px;
+            }
+
+            header p {
+                color: #d1d5db;
+            }
+
+            /* NAVIGATION */
+            nav {
+                background: white;
+                padding: 15px;
+                position: sticky;
+                top: 0;
+                z-index: 1000;
+                box-shadow: 0 2px 8px rgba(0,0,0,0.08);
+            }
+
+            nav ul {
+                display: flex;
+                justify-content: center;
+                gap: 30px;
+                list-style: none;
+            }
+
+            nav a {
+                text-decoration: none;
+                color: #111827;
+                font-weight: bold;
+                transition: 0.3s;
+            }
+
+            nav a:hover {
+                color: #2563eb;
+            }
+
+            .key-programs-dropdown {
+                position: relative;
+            }
+
+            .dropdown-menu {
+                position: absolute;
+                top: 100%;
+                left: 0;
+                min-width: 160px;
+
+                background: white;
+                border-radius: 8px;
+                box-shadow: 0 4px 15px rgba(0,0,0,.15);
+
+                list-style: none;
+                padding: 8px 0;
+                margin: 0;
+
+                opacity: 0;
+                visibility: hidden;
+                transform: translateY(10px);
+
+                transition: .25s;
+                z-index: 1000;
+            }
+
+            .dropdown-menu li {
+                width: 100%;
+            }
+
+            .dropdown-menu li:first-child {
+                margin-left: 10px;
+            }
+
+            .dropdown-menu li:last-child {
+                margin-right: 10px;
+            }
+
+            .dropdown-menu a {
+                display: block;
+                padding: 10px 16px;
+                text-decoration: none;
+                color: #333;
+            }
+
+            .dropdown-menu a:hover {
+                background: #f5f5f5;
+                color: #2563eb;
+            }
+
+            .key-programs-dropdown:hover .dropdown-menu {
+                opacity: 1;
+                visibility: visible;
+                transform: translateY(0);
+
+                margin-top: 4px;
+            }
+
+            /* SECTION */
+            section {
+                padding: 60px 8%;
+            }
+
+            .section-title {
+                font-size: 34px;
+                margin-bottom: 40px;
+                color: #111827;
+            }
+
+            /* TEAM MEMBERS */
+            .team-grid {
+                display: grid;
+                grid-template-columns: repeat(auto-fit, minmax(280px,1fr));
+                gap: 30px;
+            }
+
+            .member-card {
+                background: white;
+                border-radius: 20px;
+                padding: 30px;
+                text-align: center;
+                box-shadow: 0 5px 15px rgba(0,0,0,0.08);
+                transition: 0.3s;
+            }
+
+            .member-card:hover {
+                transform: translateY(-5px);
+            }
+
+            .member-card img {
+                width: 120px;
+                height: 120px;
+                border-radius: 50%;
+                object-fit: cover;
+                margin-bottom: 20px;
+            }
+
+            .member-card h3 {
+                margin-bottom: 10px;
+                font-size: 24px;
+            }
+
+            .member-role {
+                color: #2563eb;
+                font-weight: bold;
+                margin-bottom: 15px;
+            }
+
+            .contact-info {
+                color: #555;
+                line-height: 1.8;
+            }
+
+            /* REPORTS */
+            .report-card {
+                background: white;
+                padding: 25px;
+                border-radius: 20px;
+                margin-bottom: 40px;
+                box-shadow: 0 5px 15px rgba(0,0,0,0.08);
+            }
+
+            .report-card h3 {
+                margin-bottom: 20px;
+            }
+
+            iframe {
+                width: 100%;
+                height: 700px;
+                border: none;
+                border-radius: 15px;
+            }
+
+            /* PLANS */
+            .plan-grid {
+                display: grid;
+                grid-template-columns: repeat(auto-fit,minmax(320px,1fr));
+                gap: 30px;
+            }
+
+            .plan-card {
+                background: white;
+                border-radius: 20px;
+                overflow: hidden;
+                box-shadow: 0 5px 15px rgba(0,0,0,0.08);
+            }
+
+            .plan-card img {
+                width: 100%;
+                height: 220px;
+                object-fit: cover;
+            }
+
+            .plan-content {
+                padding: 25px;
+            }
+
+            .plan-content h3 {
+                margin-bottom: 15px;
+            }
+
+            .plan-content p {
+                color: #555;
+                line-height: 1.8;
+            }
+
+            /* FOOTER */
+            footer {
+                background: #111827;
+                color: white;
+                text-align: center;
+                padding: 30px;
+                margin-top: 60px;
+            }
+
+        </style>
+    </head>
+
+    <body>
+
+        <!-- HEADER -->
+        <header>
+            <h1>TEAM CAF_CX</h1>
+            <p>Customer Experience Team</p>
+        </header>
+
+        <!-- NAVIGATION -->
+        <nav>
+            <ul>
+                <li><a href="#team">Team Members</a></li>
+                <li><a href="#reports">Reports</a></li>
+                <li><a href="#plans">Plans & Strategy</a></li>
+                <li class="key-programs-dropdown">
+                    <a href="#">Key Programs</a>
+                    <ul class="dropdown-menu">
+                        <li><a href="programs2026.html">2026</a></li>
+                        <li><a href="programs2027.html">2027</a></li>
+                        <li><a href="programs2028.html">2028</a></li>
+                        <li><a href="programs2029.html">2029</a></li>
+                    </ul>
+                </li>
+            </ul>
+        </nav>
+
+        <!-- TEAM MEMBERS -->
+        <section id="team">
+
+            <h2 class="section-title">Team Members</h2>
+
+            <div class="team-grid">
+
+                <!-- MEMBER 1 -->
+                <div class="member-card">
+                    <img src="images/370874-200.png" alt="Member 1">
+
+                    <h3>Aspa Le Thi Mercedes</h3>
+
+                    <div class="member-role">
+                        CX Manager
+                    </div>
+
+                    <div class="contact-info">
+                        Email: mercedes.alt@pnj.com.vn<br>
+                        Phone: <br>
+                        Location: Ho Chi Minh, Vietnam
+                    </div>
+                </div>
+
+                <!-- MEMBER 2 -->
+                <div class="member-card">
+                    <img src="images/abcs.png" alt="Member 2">
+
+                    <h3>Huu Thang Tran</h3>
+
+                    <div class="member-role">
+                        Data Analyst
+                    </div>
+
+                    <div class="contact-info">
+                        Email: thang.th@pnj.com.vn<br>
+                        Phone: <br>
+                        Location: Ho Chi Minh, Viet Nam
+                    </div>
+                </div>
+
+                <!-- MEMBER 3 -->
+                <div class="member-card">
+                    <img src="images/370874-200.png" alt="Member 3">
+
+                    <h3>Thao Trang Nguyen</h3>
+
+                    <div class="member-role">
+                        Customer Experience Specialist
+                    </div>
+
+                    <div class="contact-info">
+                        Email: trang.nt55@pnj.com.vn<br>
+                        Phone: <br>
+                        Location: Ho Chi Minh, Vietnam
+                    </div>
+                </div>
 
             </div>
 
-        </div>
+        </section>
 
-        <!-- PLAN 2 -->
+        <!-- REPORTS -->
+        <section id="reports">
 
-        <div class="plan-card">
+            <h2 class="section-title">Business Reports</h2>
 
-            <img src="https://images.unsplash.com/photo-1552664730-d307ca884978?q=80&w=1200&auto=format&fit=crop" alt="Analytics">
+            <!-- REPORT 1 -->
+            <div class="report-card">
 
-            <div class="plan-content">
+                <h3>Focus Customer Report</h3>
 
-                <h3>Data-Driven CX Optimization</h3>
-
-                <p>
-                    Utilize advanced analytics and dashboards to monitor
-                    customer behavior and improve business decision-making/ Develop CRM-CDP
-                </p>
+                <iframe
+                src="https://app.powerbi.com/reportEmbed?reportId=f5aa85a0-4943-4a97-8088-764fc1dd5fde&autoAuth=true&ctid=6ea838f0-f529-455e-9738-147060990b55"
+                allowFullScreen="true">
+                </iframe>
 
             </div>
 
-        </div>
+            <!-- REPORT 2 -->
+            <div class="report-card">
+                <h3>Birthday Campaign Report</h3>
 
-    </div>
+                <iframe
+                src="https://app.powerbi.com/reportEmbed?reportId=99dead1e-9cd0-4f57-89c1-ee7ff73590bc&autoAuth=true&ctid=6ea838f0-f529-455e-9738-147060990b55"
+                allowFullScreen="true">
+                </iframe>
 
-</section>
+            </div>
 
-<!-- KEY PROGRAMS -->
+        </section>
 
-<section id="programs">
+        <!-- PLANS & STRATEGY -->
+        <section id="plans">
 
-    <h2 class="section-title">Key Programs</h2>
+            <h2 class="section-title">Plans & Strategy</h2>
 
-    <!-- PROGRAM 1 -->
+            <div class="plan-grid">
 
-    <a href="tet2026.html" style="text-decoration:none; color:inherit;">
+                <!-- PLAN 1 -->
 
-<div class="program-card">
+                <div class="plan-card">
 
-    <img src="XGTV.png" alt="Tet Program">
+                    <img src="https://images.unsplash.com/photo-1522202176988-66273c2fd55f?q=80&w=1200&auto=format&fit=crop" alt="Strategy">
 
-    <div class="program-content">
+                    <div class="plan-content">
 
-        <h3>Tet 2026 Program</h3>
+                        <h3>Customer Journey</h3>
 
-        <p>
-            A strategic festive campaign designed to strengthen customer engagement,
-            increase seasonal sales, and enhance brand awareness through exclusive
-            promotions, VIP experiences, and omnichannel communication activities.
-        </p>
+                        <p>
+                            Develop personalized customer journeys and loyalty initiatives
+                        
+                        </p>
 
-    </div>
+                    </div>
 
-</div>
+                </div>
 
-</a>
+                <!-- PLAN 2 -->
+                <div class="plan-card">
 
-    <!-- PROGRAM 2 -->
+                    <img src="https://images.unsplash.com/photo-1552664730-d307ca884978?q=80&w=1200&auto=format&fit=crop" alt="Analytics">
 
-    <div class="program-card">
+                    <div class="plan-content">
 
-        <img src="https://images.unsplash.com/photo-1517841905240-472988babdf9?q=80&w=1200&auto=format&fit=crop" alt="Women's Day">
+                        <h3>Data-Driven CX Optimization</h3>
 
-        <div class="program-content">
+                        <p>
+                            Utilize advanced analytics and dashboards to monitor
+                            customer behavior and improve business decision-making/ Develop CRM-CDP
+                        </p>
 
-            <h3>International Women's Day Campaign - March 8</h3>
+                    </div>
 
-            <p>
-                A customer appreciation initiative celebrating women through
-                personalized gifts, targeted communication campaigns,
-                and premium in-store experiences.
-            </p>
+                </div>
 
-        </div>
+            </div>
 
-    </div>
+        </section>
 
-</section>
+        <!-- FOOTER -->
 
-<!-- FOOTER -->
+        <footer>
 
-<footer>
+            TEAM CAF_CX © 2026<br>
+            Customer Experience 
 
-    TEAM CAF_CX © 2026<br>
-    Customer Experience 
+        </footer>
 
-</footer>
-
-</body>
+    </body>
 </html>
